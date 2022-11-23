@@ -8,7 +8,7 @@ const CartFooter = ({ total }) => {
 		<footer className='cart-footer'>
 			<div className='cart-footer__count'>{count} ед.</div>
 			<div className='cart-footer__price'>
-				{formatPrice(price)} руб.
+				{formatPrice(price)} грн.
 			</div>
 		</footer>
 	);
